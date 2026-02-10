@@ -49,15 +49,6 @@ Instead of producing a single expected output, these SQL queries returned **mult
 | Moderate     | 29 / 30        | 96.67%   |
 | Challenging  | 5 / 5          | 100.00%  |
 
----
-
-## Implications for Experiments
-- Ambiguous queries can **artificially lower Validation Accuracy (VA)** even when the generated SQL is logically correct.
-- Queries **53** and **72** should be:
-  - Excluded from evaluation, or
-  - Corrected to ensure a single unambiguous output.
-
-This verification ensures that subsequent experiments—**Base Model Evaluation, SFT, and DPO**—are conducted on a **reliable and high-quality benchmark**.
 
 ---
 
