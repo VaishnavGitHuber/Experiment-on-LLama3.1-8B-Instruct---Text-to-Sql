@@ -6,3 +6,4 @@
 3. Database Verification
 4. Preference Pair Construction
 5. Direct Preference Optimisation
+6. Direct Preference Optimisation with 89 Records
